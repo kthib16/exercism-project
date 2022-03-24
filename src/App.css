@@ -1,46 +1,113 @@
+header {
+  background: #FFFFFF;
+  padding: 1rem;
+  border-bottom: 1px solid #C8D5EF;
+  margin-bottom: 4rem;
+}
 
+header {
+  margin-bottom: 5rem;
+}
 
-.App {
+header > ul > li {
+  padding-right: 2rem;
+
+}
+
+body {
+  padding: 2rem;
+  background: #FFFFFF;
+  font-family: 'Poppins';
+  font-style: normal;
+  color: #3F3A5A;
+  cursor: default;
+}
+
+h2 {
+  font-size: 31.25px;
+  line-height: 138%;
   text-align: center;
-  display: block
+  color: #130B43;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li{
+  vertical-align: middle;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page-button {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 8px 16px;
+
+
+  height: 4vh;
+  border: 1px solid #D5D8E4;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 0px 1px rgba(203, 201, 217, 0.6);
+  border-radius: 5px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 170%;
+
+  color: #5C5589;
+  margin: 0px 10px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.next-button {
+  right: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-container {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 42px
+    rgba(79, 114, 205, .35);
+  border-radius: 8px;
+  padding: 1rem;
 }
 
-p{
-  color: red;
-  display: block;
+
+
+.list-item:hover {
+  background-color: #EAECF3;
+  text-align: start;
+}
+
+
+
+.mentor-photo {
+  border-radius: 50%;
+  max-width: 2rem;
+
+}
+
+.list-review {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+.page-number{
+  left: calc(50% - 41px/2 + 51px)
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+}
+
+.dropdown{
+  box-shadow: 0px 4px 42px
+    rgba(79, 114, 205, 0.35);
 }
